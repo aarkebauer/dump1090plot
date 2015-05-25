@@ -184,7 +184,7 @@ The hex code can often be determined by looking at the flight number on the plot
 going to 'data.dat' and looking at the hex number that corresponds to this flight number.
 Running the following in the command line will delete all lines containing the hex number:
 
-perl -ni -e "hexnumber" data.dat
+grep -v [hex number] data.dat > data.dat
 
 
 

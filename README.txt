@@ -526,9 +526,8 @@ def plot():
 	#####################################################################
 
 	# SET THESE LINES TO CURRENT LATITUDE AND LONGITUDE TO CENTER GRAPH
-	currentlatitude = 40.75306		# Home is 40.75306
-	currentlongitude = -96.74417	# Home is -96.74417
-
+	currentlatitude = 0.0000
+	currentlongitude = -0.0000
 	# If the following is set to True it will plot from z = 0
 	# If set to False it will plot from z = [minimum altitude] - 1000 ft
 	plot_from_ground_level = False

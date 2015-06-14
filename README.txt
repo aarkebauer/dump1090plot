@@ -94,6 +94,8 @@ Now you can view dump1090 as follows:
 	On RasPi: navigate to localhost:8080
 	On computer (if connected to internet): navigate to [pi's ip address]:8080
 	To view the latest raw data: add /data.json to the end of the above addresses
+	Make sure when starting dump1090 on the Pi to use the --net command
+	i.e. start with this command: ./dump1090 --interactive --net
 	
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
